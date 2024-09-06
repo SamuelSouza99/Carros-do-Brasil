@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros do Brasil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="carros.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Carros do Brasil</h1>
+        <p>Conheça os carros feitos por brasileiros em nosso território nacional.</p>
+    </header>
+
+    <main>
+        <p>Utilize o input para perquisar por assuntos especificos.</p>
+        <input type="text" id="campo_pesquisa" placeholder="Pesquise algum assunto sobre os carros abaixo"><br>
+        <button onclick="pesquisar()">Pesquisar!</button><br>
+
+        <div class="espaco"></div>
+        <div class="resultados" id="resultados"></div>
+    </main>
+
+    <section>
+        <div id="infos"></div>
+    </section>
+
+    <footer>
+        <p>&copy; <a class="meuLink" href="https://github.com/SamuelSouza99" target="_blank" title="Acesse meu GitHub.">Samuel Muca</a> 2024</p>
+    </footer>
+</body>
+</html>
